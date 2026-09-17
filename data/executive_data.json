@@ -1,0 +1,279 @@
+{
+  "simulation": {
+    "start_date": "2026-09-21",
+    "end_date": "2026-09-25",
+    "user": {
+      "name": "Arjun Malhotra",
+      "role": "VP Sales",
+      "email": "arjun.malhotra@veridian-corp.example"
+    }
+  },
+  "people": [
+    {
+      "name": "Arjun Malhotra",
+      "role": "VP Sales",
+      "email": "arjun.malhotra@veridian-corp.example",
+      "type": "user"
+    },
+    {
+      "name": "Neha Kapoor",
+      "role": "Marketing Lead",
+      "email": "neha.kapoor@veridian-corp.example",
+      "type": "source"
+    },
+    {
+      "name": "Raghav Sethi",
+      "role": "Ops Manager",
+      "email": "raghav.sethi@veridian-corp.example",
+      "type": "source"
+    },
+    {
+      "name": "Divya Rao",
+      "role": "Finance",
+      "email": "divya.rao@veridian-corp.example",
+      "type": "source"
+    },
+    {
+      "name": "Priya Nair",
+      "role": "Meridian Logistics (external client)",
+      "email": "priya.nair@meridianlogistics.example",
+      "type": "source"
+    },
+    {
+      "name": "Facilities",
+      "role": "Internal distribution list",
+      "email": "facilities@veridian-corp.example",
+      "type": "source"
+    }
+  ],
+  "sources": [
+    {
+      "id": "meeting_1",
+      "type": "meeting",
+      "title": "Leadership Sync",
+      "date": "2026-09-21",
+      "time": "09:00-09:35",
+      "text": "Arjun said he would send Raghav the updated vendor list by end of day tomorrow. Mumbai office renewal paperwork needs someone to sign off this week; ownership was uncertain and Arjun said to flag it, not assume. Divya agreed to have the July expense variance report ready Wednesday evening. Arjun said he needed to reconfirm the new Meridian Logistics call time himself. Neha later clarified that the campaign deck review would be Thursday morning rather than Wednesday."
+    },
+    {
+      "id": "email_vendor",
+      "type": "email_thread",
+      "title": "Vendor List",
+      "date": "2026-09-23",
+      "text": "Raghav followed up Monday asking for the updated vendor list. Arjun said Monday evening he would send Tuesday morning instead. Tuesday evening he said he would send Wednesday morning for sure. Wednesday morning Raghav checked whether it was still good for that morning."
+    },
+    {
+      "id": "email_deck",
+      "type": "email_thread",
+      "title": "Q3 Campaign Deck",
+      "date": "2026-09-24",
+      "text": "Neha initially targeted Wednesday review, then shifted it to Thursday morning. Arjun agreed and asked for the exact time. Neha set 9:30 AM Thursday and said the deck was ready at 8 AM Thursday."
+    },
+    {
+      "id": "email_call",
+      "type": "email_thread",
+      "title": "Call Reschedule",
+      "date": "2026-09-23",
+      "text": "Priya said Tuesday-Thursday afternoons were flexible. Arjun proposed Wednesday 3 PM. Priya confirmed Wednesday 3 PM. Arjun reconfirmed at 2 PM Wednesday."
+    },
+    {
+      "id": "email_expense",
+      "type": "email_thread",
+      "title": "Expense Variance Report",
+      "date": "2026-09-23",
+      "text": "Divya initially targeted Thursday morning. Arjun requested Wednesday evening instead. Divya agreed. Wednesday 6 PM Divya sent the report and Arjun confirmed receipt at 6:10 PM."
+    },
+    {
+      "id": "email_lease",
+      "type": "email_thread",
+      "title": "Mumbai Office Lease Renewal",
+      "date": "2026-09-24",
+      "text": "Facilities reminded all staff that an authorized signature was required by Friday 25 September. Raghav asked who was signing. Divya said she believed this typically sat with Facilities, not Finance. Thursday Facilities said signature was still pending and Raghav said it was still unowned and asked Arjun to confirm who was handling it."
+    },
+    {
+      "id": "voice_1",
+      "type": "voice_note",
+      "title": "Voice Note 1",
+      "date": "2026-09-21",
+      "text": "Arjun reminded himself that he needed to get Raghav the vendor list and that it might slip to tomorrow morning. He also said the Mumbai lease still had no clear owner."
+    },
+    {
+      "id": "voice_2",
+      "type": "voice_note",
+      "title": "Voice Note 2",
+      "date": "2026-09-23",
+      "text": "Arjun reminded himself that the expense variance report from Divya needed to be in his hands by Wednesday evening so he could review it before board prep. He also said he owed Priya a time and needed to lock it in."
+    }
+  ],
+  "calendar": [
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-21",
+      "time": "09:00-09:35",
+      "event": "Leadership Sync"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-21",
+      "time": "14:00-14:30",
+      "event": "1:1 with Neha"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-21",
+      "time": "16:00-17:00",
+      "event": "Blocked"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-22",
+      "time": "11:00-12:00",
+      "event": "Internal Budget Review"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-22",
+      "time": "15:00-15:30",
+      "event": "Blocked"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-23",
+      "time": "15:00-15:30",
+      "event": "Call \u2014 Meridian Logistics"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-23",
+      "time": "18:00-18:15",
+      "event": "Blocked"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-24",
+      "time": "09:00-10:00",
+      "event": "Board Prep Session"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-24",
+      "time": "16:00-17:00",
+      "event": "Hiring Panel \u2014 Sales Associate"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-25",
+      "time": "10:00-10:30",
+      "event": "Facilities Check-in"
+    },
+    {
+      "person": "Arjun Malhotra",
+      "date": "2026-09-25",
+      "time": "13:00-14:00",
+      "event": "Blocked"
+    },
+    {
+      "person": "Neha Kapoor",
+      "date": "2026-09-24",
+      "time": "09:30-10:00",
+      "event": "Deck Review with Arjun"
+    },
+    {
+      "person": "Raghav Sethi",
+      "date": "2026-09-25",
+      "time": "10:00-10:30",
+      "event": "Facilities Check-in"
+    },
+    {
+      "person": "Divya Rao",
+      "date": "2026-09-24",
+      "time": "09:00-10:00",
+      "event": "Board Prep Session"
+    }
+  ],
+  "canonical_actions": [
+    {
+      "id": "A1",
+      "action": "Send updated vendor list",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Raghav Sethi",
+      "deadline_date": "2026-09-23",
+      "deadline_label": "Wednesday morning",
+      "status": "open",
+      "category": "my_action",
+      "priority": "high",
+      "sources": [
+        "meeting_1",
+        "email_vendor",
+        "voice_1"
+      ],
+      "evidence": "Arjun repeatedly committed to sending the updated vendor list to Raghav; the latest commitment was Wednesday morning."
+    },
+    {
+      "id": "A2",
+      "action": "Review Q3 campaign deck",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Neha Kapoor",
+      "deadline_date": "2026-09-24",
+      "deadline_label": "Thursday 9:30 AM",
+      "status": "scheduled",
+      "category": "my_action",
+      "priority": "high",
+      "sources": [
+        "meeting_1",
+        "email_deck"
+      ],
+      "evidence": "The review moved from Wednesday to Thursday morning and was finalized for 9:30 AM Thursday; calendar confirms the meeting."
+    },
+    {
+      "id": "A3",
+      "action": "Receive/review July expense variance report",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Divya Rao",
+      "deadline_date": "2026-09-23",
+      "deadline_label": "Wednesday evening",
+      "status": "completed",
+      "category": "waiting_on_others",
+      "priority": "medium",
+      "sources": [
+        "meeting_1",
+        "email_expense",
+        "voice_2"
+      ],
+      "evidence": "Divya sent the report Wednesday at 6 PM and Arjun confirmed receipt at 6:10 PM."
+    },
+    {
+      "id": "A4",
+      "action": "Attend Meridian Logistics call",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Priya Nair",
+      "deadline_date": "2026-09-23",
+      "deadline_label": "Wednesday 3:00 PM",
+      "status": "confirmed",
+      "category": "my_action",
+      "priority": "high",
+      "sources": [
+        "meeting_1",
+        "email_call"
+      ],
+      "evidence": "Arjun proposed Wednesday 3 PM, Priya confirmed, and Arjun reconfirmed; calendar also contains the call."
+    },
+    {
+      "id": "A5",
+      "action": "Obtain authorized signature / resolve owner for Mumbai office lease renewal",
+      "owner": "Unassigned",
+      "counterparty": "Facilities / relevant authorized signer",
+      "deadline_date": "2026-09-25",
+      "deadline_label": "Friday end of day",
+      "status": "unclear",
+      "category": "unclear_ownership",
+      "priority": "critical",
+      "sources": [
+        "meeting_1",
+        "email_lease",
+        "voice_1"
+      ],
+      "evidence": "The deadline is confirmed, but no source confirms who owns the signature. Arjun explicitly said to flag it rather than assume."
+    }
+  ]
+}
