@@ -1,0 +1,27 @@
+{
+  "simulation_week": "2026-09-21 to 2026-09-25",
+  "user": "Arjun Malhotra",
+  "sources": [
+    {"id":"meeting_leadership_sync","type":"meeting","timestamp":"2026-09-21T09:00","title":"Leadership Sync","text":"Arjun: Let's keep this quick. Neha, where are we on the Q3 campaign deck? Neha: Draft is 80% done. I'll send it to Arjun for review by Wednesday. Arjun: Good. Also, remind me — I told Raghav I'd send him the updated vendor list. I'll get that to him by end of day tomorrow. Raghav: Appreciated. Separately, the Mumbai office renewal paperwork needs someone to sign off this week. Not sure whose desk that's on right now. Divya: I think that's supposed to be Facilities, but I haven't seen anyone pick it up. Arjun: Okay, flag it, don't assume. Divya, can you also pull the July expense variance report before Thursday's board prep? Divya: Yes, I'll have it ready Wednesday evening. Arjun: One more thing — client call with Meridian Logistics got pushed. I need to reconfirm the new time with their team myself. Neha: Also, just a reminder, the campaign deck review — I said Wednesday, but realistically Thursday morning is safer. Arjun: Noted."},
+    {"id":"email_vendor_list","type":"email_thread","timestamp":"2026-09-23T08:45","title":"Vendor List","text":"Raghav: Following up from the sync — can you send the updated vendor list today? Arjun: Running behind, will send first thing tomorrow morning instead. Raghav: No worries, whenever you get a chance today works. Arjun: Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure. Raghav: Just checking — still good for this morning?"},
+    {"id":"email_campaign_deck","type":"email_thread","timestamp":"2026-09-24T08:00","title":"Q3 Campaign Deck","text":"Neha: Deck's coming together, still targeting Wednesday for your review. Neha: Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides. Arjun: Understood, Thursday morning works. What time exactly? Neha: Let's say 9:30 AM Thursday, before your board prep block. Neha: Deck is ready, attaching the draft ahead of our 9:30 review."},
+    {"id":"email_call_reschedule","type":"email_thread","timestamp":"2026-09-23T14:00","title":"Call Reschedule","text":"Priya: Our scheduled call this week got bumped from our side — can you propose a new time? We're flexible Tuesday–Thursday afternoons. Arjun: Apologies for the delay — how about Wednesday 3:00 PM? Priya: Wednesday 3 PM works on our end, confirmed. Priya: Quick check — still on for 3 PM today? Arjun: Yes, confirmed, see you at 3."},
+    {"id":"email_expense_report","type":"email_thread","timestamp":"2026-09-23T18:10","title":"Expense Variance Report","text":"Divya: Starting on the July variance numbers, targeting Thursday morning for board prep as discussed. Arjun: Actually, can I get it by Wednesday evening instead? Want time to review before Thursday. Divya: Wednesday evening is tight but doable, I'll prioritize it. Divya: Report attached, sent as promised. Arjun: Got it, thank you — exactly what I needed before tomorrow."},
+    {"id":"email_mumbai_lease","type":"email_thread","timestamp":"2026-09-24T16:45","title":"Mumbai Office Lease Renewal","text":"Facilities: Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September. Raghav: Following up from the sync — has anyone confirmed who's signing off on the Mumbai renewal? Don't think it's been assigned. Divya: Not on my end — I believe this typically sits with Facilities directly, not us. Facilities: Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day. Raghav: This is now one day out and still unowned — can you confirm who's handling it?"},
+    {"id":"voice_note_1","type":"voice_note","timestamp":"2026-09-21T18:40","title":"Voice Note 1","text":"Quick note to self — need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven't heard back on the Mumbai lease thing, someone needs to own that, I don't think it's me."},
+    {"id":"voice_note_2","type":"voice_note","timestamp":"2026-09-23T08:15","title":"Voice Note 2","text":"Reminder — expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call — I owe Priya a time, need to lock that in today."}
+  ],
+  "calendars": [
+    {"owner":"Arjun Malhotra","date":"2026-09-23","time":"15:00-15:30","event":"Call — Meridian Logistics"},
+    {"owner":"Neha Kapoor","date":"2026-09-24","time":"09:30-10:00","event":"Deck Review with Arjun"},
+    {"owner":"Arjun Malhotra","date":"2026-09-24","time":"09:00-10:00","event":"Board Prep Session"},
+    {"owner":"Arjun Malhotra","date":"2026-09-25","time":"10:00-10:30","event":"Facilities Check-in"}
+  ],
+  "emails": [
+    {"thread":"Vendor List","latest":"2026-09-23T08:45","commitment":"Wednesday morning"},
+    {"thread":"Q3 Campaign Deck","latest":"2026-09-24T08:00","commitment":"Thursday 9:30 AM"},
+    {"thread":"Call Reschedule","latest":"2026-09-23T14:00","commitment":"Wednesday 3 PM"},
+    {"thread":"Expense Variance Report","latest":"2026-09-23T18:10","commitment":"Wednesday evening; received"},
+    {"thread":"Mumbai Office Lease Renewal","latest":"2026-09-24T16:45","commitment":"Friday EOD; owner unresolved"}
+  ]
+}
